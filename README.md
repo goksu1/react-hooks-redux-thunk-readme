@@ -8,6 +8,8 @@
 
 ## Introduction
 
+
+
 Part of the value of using Redux is that it provides a centralized way to
 control the data of an application. In a standard React/Redux application, any
 child component can connect to the store directly from anywhere in the app. This

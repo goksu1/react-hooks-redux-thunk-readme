@@ -1,3 +1,4 @@
+// ./src/features/astronauts/Astronauts.js
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchAstronauts } from "./astronautsSlice";
@@ -8,7 +9,6 @@ function Astronauts() {
   const astronauts = useSelector((state) => state.astronauts.entities);
 
   function handleClick() {
-    // dispatch the action creator (see below!)
     dispatch(fetchAstronauts());
   }
 
@@ -24,4 +24,4 @@ function Astronauts() {
   );
 }
 
-export default Astronauts;
+export default Astronauts; 
